@@ -1,0 +1,18 @@
+{
+  "taskID": task_002
+  "action": "launchTool",
+  "toolName": Figmat",
+  "parameters": {
+    "projectName": TestDesign
+    "language": "Python"
+    "template": "Wireframe",
+  },
+  "priority": "mhigh",
+  "trigger": "onCommit",
+  "status": "pending",
+  "timestamp": ""
+}
+```
+
+> **Usage:**  
+> Duplicate this file, rename it (e.g., `task_001.json`), and modify the fields as needed to define a new task.
