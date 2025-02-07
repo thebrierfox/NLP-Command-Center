@@ -1,0 +1,17 @@
+```yaml
+action: launchTool
+tool: Replit
+description: "Workflow to launch a new Replit project using a browser-based interaction."
+steps:
+  - step: "open_url"
+    value: "https://replit.com/"
+  - step: "wait_for"
+    value: "page_load"
+  - step: "click"
+    target: "New Repl button"
+  - step: "select_option"
+    target: "language_selector"
+    value: "Python"
+  - step: "click"
+    target: "Create Repl button"
+```
