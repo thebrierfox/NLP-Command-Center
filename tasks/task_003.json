@@ -1,0 +1,11 @@
+{
+    "taskID": "task_003",
+    "action": "launchTool",
+    "toolName": "Trello",
+    "parameters": {
+        "boardName": "TestBoard",
+        "template": "Kanban"
+    },
+    "priority": "medium",
+    "status": "pending"
+}
