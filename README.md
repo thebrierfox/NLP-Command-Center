@@ -1,5 +1,7 @@
 # IntuiTek¹ Operator Repository
 
+REPOSITORY SET UP INSTRUCTIONS ARE TO BE FOUND HERE: https://gist.github.com/thebrierfox/dc00a77897fe3090a2326ec6d76c7b6a
+
 ## Overview
 This repository is the central command center for the Operator AI (CUA model). It is designed to be read and triggered by the Operator AI to autonomously execute tasks using a curated toolbox of web-based tools and predefined action workflows. Each file in this repository has been structured to enable clear communication, rapid task processing, and robust logging.
 
