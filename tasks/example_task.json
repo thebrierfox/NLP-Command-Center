@@ -1,0 +1,9 @@
+{
+    "action": "perform_analysis",
+    "toolName": "DataAnalyzer",
+    "parameters": {
+        "dataset": "sales_data.csv",
+        "analysisType": "regression"
+    },
+    "priority": "high"
+}
