@@ -7,5 +7,6 @@
         "template": "Kanban"
     },
     "priority": "medium",
-    "status": "pending"
+    "status": failed
 }
+// action_trello.yaml not found, unable to proceed with Trello board creation
