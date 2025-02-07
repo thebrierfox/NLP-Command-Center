@@ -1,0 +1,250 @@
+{
+  "Toolbox": [
+    {
+      "category": "Code Editors & Development Environments",
+      "tools": [
+        {
+          "name": "Replit",
+          "url": "https://replit.com/",
+          "description": "Collaborative, browser-based coding platform supporting multiple programming languages. Includes hosting, built-in terminals, and real-time multiplayer editing.",
+          "openSource": false,
+          "keyFeatures": [
+            "Multiple language support",
+            "Browser-only development",
+            "Live collaboration",
+            "Built-in hosting"
+          ]
+        },
+        {
+          "name": "Gitpod",
+          "url": "https://www.gitpod.io/",
+          "description": "Full dev environment in the browser that spins up on-demand workspaces integrated with GitHub, GitLab, and Bitbucket.",
+          "openSource": false,
+          "keyFeatures": [
+            "Automatic dev environment setup",
+            "Container-based isolation",
+            "Tight GitHub integration",
+            "Prebuilt workspaces"
+          ]
+        },
+        {
+          "name": "CodeSandbox",
+          "url": "https://codesandbox.io/",
+          "description": "Browser-based environment for web app development, excellent for rapid prototyping in JavaScript frameworks like React, Vue, and Angular.",
+          "openSource": false,
+          "keyFeatures": [
+            "Live previews",
+            "Frictionless sharing",
+            "Template-based sandbox creation",
+            "Collaboration & versioning"
+          ]
+        },
+        {
+          "name": "Glitch",
+          "url": "https://glitch.com/",
+          "description": "Simple, user-friendly platform that lets you instantly create, edit, and deploy full-stack web apps from your browser.",
+          "openSource": false,
+          "keyFeatures": [
+            "Real-time editing",
+            "Instant deployment",
+            "Community-built templates",
+            "Remixable projects"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Design & Prototyping",
+      "tools": [
+        {
+          "name": "Figma",
+          "url": "https://www.figma.com/",
+          "description": "Browser-based UI/UX design and prototyping tool. Allows real-time collaboration, vector editing, and rapid prototyping.",
+          "openSource": false,
+          "keyFeatures": [
+            "Real-time multi-user collaboration",
+            "Vector networks for precise design",
+            "Prototype interactions & animations",
+            "Design libraries & components"
+          ]
+        },
+        {
+          "name": "Penpot",
+          "url": "https://penpot.app/",
+          "description": "Open-source design and prototyping platform that runs entirely in the browser. Great for wireframes and detailed UI design.",
+          "openSource": true,
+          "keyFeatures": [
+            "Complete browser-based environment",
+            "SVG-based design files",
+            "Team collaboration features",
+            "Self-hosting available"
+          ]
+        },
+        {
+          "name": "Excalidraw",
+          "url": "https://excalidraw.com/",
+          "description": "Open-source virtual whiteboard for sketches, diagrams, and wireframes, with a hand-drawn style that?s great for brainstorming.",
+          "openSource": true,
+          "keyFeatures": [
+            "Minimalistic interface",
+            "Collaboration links",
+            "Hand-drawn style graphics",
+            "No account required"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Collaboration & Task Management",
+      "tools": [
+        {
+          "name": "Trello",
+          "url": "https://trello.com/",
+          "description": "Kanban-style project management with boards, lists, and cards. Free version suitable for personal or small team use.",
+          "openSource": false,
+          "keyFeatures": [
+            "Intuitive drag-and-drop boards",
+            "Checklists & due dates",
+            "Power-Ups & integrations",
+            "Real-time syncing"
+          ]
+        },
+        {
+          "name": "Notion",
+          "url": "https://www.notion.so/",
+          "description": "All-in-one workspace for notes, tasks, wikis, and databases. Highly flexible, with real-time collaboration in the browser.",
+          "openSource": false,
+          "keyFeatures": [
+            "Modular pages & blocks",
+            "Real-time collaboration",
+            "Relational databases",
+            "Customizable layouts"
+          ]
+        },
+        {
+          "name": "Taiga",
+          "url": "https://www.taiga.io/",
+          "description": "Open-source project management platform with Scrum and Kanban support. Offers a browser-accessible hosted version.",
+          "openSource": true,
+          "keyFeatures": [
+            "Scrum & Kanban workflows",
+            "Sprint planning & backlog",
+            "Issue tracking",
+            "Self-hosting or SaaS"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Data Analysis & Machine Learning",
+      "tools": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/",
+          "description": "Community-driven platform for machine learning models (NLP, vision, etc.). Host models, run inference, or try them via web demos.",
+          "openSource": false,
+          "keyFeatures": [
+            "Large model repository",
+            "Spaces for hosting demos",
+            "In-browser inference APIs",
+            "Collaborative model training"
+          ]
+        },
+        {
+          "name": "Kaggle",
+          "url": "https://www.kaggle.com/",
+          "description": "Data science community providing free GPU/TPU notebooks, datasets, competitions, and hosted notebooks in your browser.",
+          "openSource": false,
+          "keyFeatures": [
+            "Free GPU/TPU compute",
+            "Shared datasets & kernels",
+            "Community-driven challenges",
+            "Built-in Python environment"
+          ]
+        },
+        {
+          "name": "Observable",
+          "url": "https://observablehq.com/",
+          "description": "Browser-based data notebooks for interactive data visualization in JavaScript. Useful for real-time exploration and sharing.",
+          "openSource": false,
+          "keyFeatures": [
+            "Reactive notebook environment",
+            "Interactive D3.js visualizations",
+            "Version control & forking",
+            "Community notebook sharing"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Research & Documentation",
+      "tools": [
+        {
+          "name": "Zotero Web Library",
+          "url": "https://www.zotero.org/",
+          "description": "Open-source reference manager with cloud sync. Browser-based interface to organize citations, PDFs, and research materials.",
+          "openSource": true,
+          "keyFeatures": [
+            "Reference organization",
+            "Collaboration via shared libraries",
+            "Tagging & advanced search",
+            "PDF annotation (Zotero Beta web viewer)"
+          ]
+        },
+        {
+          "name": "Etherpad",
+          "url": "https://etherpad.org/",
+          "description": "Real-time collaborative text editing. Open-source solution that can be hosted or accessed on public instances via browser.",
+          "openSource": true,
+          "keyFeatures": [
+            "Multiple users editing simultaneously",
+            "Version control & time slider",
+            "Minimalistic interface",
+            "Customizable via plugins"
+          ]
+        },
+        {
+          "name": "Obsidian Publish",
+          "url": "https://obsidian.md/publish",
+          "description": "While Obsidian is typically a desktop app, Obsidian Publish offers a browser-accessible way to share vault notes online. Good for hosting knowledge bases.",
+          "openSource": false,
+          "keyFeatures": [
+            "Markdown-based knowledge sharing",
+            "Graph view for visual linking",
+            "Custom CSS styling",
+            "Link-based note browsing"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Version Control & Code Hosting",
+      "tools": [
+        {
+          "name": "GitLab (Online)",
+          "url": "https://gitlab.com/",
+          "description": "Open-source DevOps platform. The GitLab.com instance allows free private repos, CI/CD pipelines, and issue tracking in the browser.",
+          "openSource": true,
+          "keyFeatures": [
+            "Online repos & Git-based versioning",
+            "Integrated CI/CD",
+            "Issue boards & group milestones",
+            "Merge request approvals"
+          ]
+        },
+        {
+          "name": "SourceForge",
+          "url": "https://sourceforge.net/",
+          "description": "One of the oldest platforms for hosting open-source projects. Provides version control, downloads, and web-based administration.",
+          "openSource": true,
+          "keyFeatures": [
+            "Bug tracking & wiki",
+            "Stats on project downloads",
+            "Open-source community hub",
+            "Supports SVN, Git, Mercurial"
+          ]
+        }
+      ]
+    }
+  ]
+}
