@@ -1,9 +1,17 @@
 {
-    "action": "example_action",
-    "toolName": "example_tool",
-    "parameters": {
-        "param1": "value1",
-        "param2": "value2"
-    },
-    "priority": "normal"
+  "taskID": "template_001",
+  "action": "launchTool",
+  "toolName": "Replit",
+  "parameters": {
+    "projectName": "New Project",
+    "language": "Python"
+  },
+  "priority": "medium",
+  "trigger": "onCommit",
+  "status": "pending",
+  "timestamp": ""
 }
+```
+
+> **Usage:**  
+> Duplicate this file, rename it (e.g., `task_001.json`), and modify the fields as needed to define a new task.
