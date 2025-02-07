@@ -1,3 +1,4 @@
+```markdown
 # Operator Instructions
 
 ## Purpose
@@ -26,7 +27,6 @@ This document provides detailed guidance for the Operator AI (CUA model) on how 
 1. **Detection:**  
    - Monitor the `/tasks` folder for new or modified task files as specified by the trigger configuration.
 
-
 2. **Interpretation:**  
    - Parse the task JSON to extract `action`, `toolName`, `parameters`, `priority`, and other relevant fields.
    - Look up the specified tool in `toolbox.json` to gather additional context if needed.
@@ -50,3 +50,4 @@ This document provides detailed guidance for the Operator AI (CUA model) on how 
   
 - **Feedback Loop:**  
   Log every action and update task statuses to enable continuous learning and system improvement.
+```
