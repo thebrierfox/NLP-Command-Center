@@ -1,0 +1,17 @@
+```yaml
+action: launchTool
+tool: Figma
+description: "Workflow to initiate a new design session in Figma."
+steps:
+  - step: "open_url"
+    value: "https://www.figma.com/"
+  - step: "wait_for"
+    value: "page_load"
+  - step: "click"
+    target: "New File"
+  - step: "type"
+    target: "project_name_field"
+    value: "New Design Project"
+  - step: "click"
+    target: "Create File button"
+```
