@@ -9,8 +9,9 @@
   },
   "priority": "mhigh",
   "trigger": "onCommit",
-  "status": "pending",
-  "timestamp": ""
+  "status": failed
+  
+  "t// Figma site unavailableimestamp": 
 }
 ```
 
