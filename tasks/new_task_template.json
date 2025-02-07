@@ -1,0 +1,9 @@
+{
+    "action": "example_action",
+    "toolName": "example_tool",
+    "parameters": {
+        "param1": "value1",
+        "param2": "value2"
+    },
+    "priority": "normal"
+}
