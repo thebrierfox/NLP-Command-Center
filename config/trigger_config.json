@@ -1,0 +1,12 @@
+```json
+{
+  "triggerRules": [
+    {
+      "filePattern": "tasks/task_*.json",
+      "action": "processTaskFile",
+      "frequency": "onCommit",
+      "description": "Process any new or modified task file in the 'tasks' directory as a trigger for action execution."
+    }
+  ]
+}
+```
