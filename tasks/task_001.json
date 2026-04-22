@@ -3,15 +3,12 @@
   "action": "launchTool",
   "toolName": "Replit",
   "parameters": {
-    "projectName": TestProject,
+    "projectName": "TestProject",
     "language": "Python"
   },
-  "priority": "high
+  "priority": "high",
   "trigger": "onCommit",
-  "status": completed,
-  "timestamp": ""
+  "status": "completed",
+  "timestamp": "2026-04-22T00:39:23Z",
+  "notes": "HEAD https://replit.com/ -> HTTP 200"
 }
-```
-
-> **Usage:**  
-> Duplicate this file, rename it (e.g., `task_001.json`), and modify the fields as needed to define a new task.

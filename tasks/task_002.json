@@ -1,19 +1,15 @@
 {
-  "taskID": task_002
+  "taskID": "task_002",
   "action": "launchTool",
-  "toolName": Figmat",
+  "toolName": "Figma",
   "parameters": {
-    "projectName": TestDesign
-    "language": "Python"
-    "template": "Wireframe",
+    "projectName": "TestDesign",
+    "language": "Python",
+    "template": "Wireframe"
   },
-  "priority": "mhigh",
+  "priority": "medium",
   "trigger": "onCommit",
-  "status": failed
-  
-  "t// Figma site unavailableimestamp": 
+  "status": "completed",
+  "timestamp": "2026-04-22T00:39:07Z",
+  "notes": "HEAD https://www.figma.com/ -> HTTP 200"
 }
-```
-
-> **Usage:**  
-> Duplicate this file, rename it (e.g., `task_001.json`), and modify the fields as needed to define a new task.
