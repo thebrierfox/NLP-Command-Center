@@ -1,0 +1,30 @@
+name: operator-smoke
+on: [push, pull_request]
+jobs:
+  operator:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: validate all task JSON files
+        run: |
+          python3 -c "
+          import json, pathlib, sys
+          errors = []
+          for p in sorted(pathlib.Path('tasks').glob('*.json')):
+              try:
+                  json.loads(p.read_text())
+                  print(f'  OK: {p.name}')
+              except json.JSONDecodeError as e:
+                  errors.append(f'  FAIL: {p.name}: {e}')
+                  print(f'  FAIL: {p.name}: {e}')
+          if errors:
+              sys.exit(1)
+          "
+      - name: validate toolbox.json
+        run: python3 -c "import json; json.loads(open('toolbox.json').read()); print('toolbox.json OK')"
+      - name: operator one-shot (no runtime — queued mode)
+        run: |
+          OPERATOR_POLL_S=0 python3 scripts/operator.py tasks/task_001.json || true
